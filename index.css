@@ -1,0 +1,79 @@
+.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+.logo-image {
+    width: 500px;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    fill:none;stroke-miterlimit:10;
+    opacity:1;
+}
+.cls-1 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 2s linear forwards;
+}
+.cls-2 {
+    /* stroke:#f7931e;stroke-width:3px; */
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 3s linear forwards;
+    animation-delay: .3s;
+}
+.cls-3 {
+    /* stroke:#f7931e;stroke-width:3px; */
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 3s linear forwards;
+    animation-delay: 1.5s;
+}
+.cls-4 {
+    /* stroke:#f7931e;stroke-width:3px; */
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 3s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.cls-5 {
+    /* stroke:#f7931e;stroke-width:3px; */
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 3s linear forwards;
+    animation-delay: 3s;
+}
+
+.cls-6 {
+    stroke:#f7931e;stroke-width:3px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw-2 5s linear forwards;
+    animation-delay: 3s;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 1000;
+        stroke:#f7931e;
+        stroke-width:5px;
+    }
+    60% {
+        stroke: #666;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        stroke: #666;
+        stroke-width: 2px;
+    }
+}
+
+@keyframes draw-2 {
+    to {
+      stroke-dashoffset: 0;
+    }
+}

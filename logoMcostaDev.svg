@@ -1,0 +1,96 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 164.97">
+    <defs>
+        <style>
+            .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+                fill:none;stroke-miterlimit:10;
+                opacity:1;
+            }
+            .cls-1 {
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 2s linear forwards;
+            }
+            .cls-2 {
+                /* stroke:#f7931e;stroke-width:3px; */
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 3s linear forwards;
+                animation-delay: .3s;
+            }
+            .cls-3 {
+                /* stroke:#f7931e;stroke-width:3px; */
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 3s linear forwards;
+                animation-delay: 1.5s;
+            }
+            .cls-4 {
+                /* stroke:#f7931e;stroke-width:3px; */
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 3s linear forwards;
+                animation-delay: 2.5s;
+            }
+
+            .cls-5 {
+                /* stroke:#f7931e;stroke-width:3px; */
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 3s linear forwards;
+                animation-delay: 3s;
+            }
+
+            .cls-6 {
+                stroke:#f7931e;stroke-width:3px;
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw-2 5s linear forwards;
+                animation-delay: 3s;
+            }
+
+            @keyframes draw {
+                0% {
+                    stroke-dashoffset: 1000;
+                    stroke:#f7931e;
+                    stroke-width:5px;
+                }
+                60% {
+                    stroke: #666;
+                }
+                100% {
+                    stroke-dashoffset: 0;
+                    stroke: #666;
+                    stroke-width: 2px;
+                }
+            }
+
+            @keyframes draw-2 {
+                to {
+                stroke-dashoffset: 0;
+                }
+            }
+        </style>
+    </defs>
+        <title>logoMcostaDev</title>
+        <svg class="logo-image" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 164.97">
+            <title>logoMcostaDev</title>
+            <!-- A -->
+            <line class="cls-5" x1="11.49" y1="163.66" x2="11.37" y2="1.66"/>
+            <line class="cls-5" x1="11.37" y1="1.78" x2="81.76" y2="163.49"/>
+            <line class="cls-5" x1="11.43" y1="83.1" x2="47.02" y2="83.69"/>
+            <!-- T -->
+            <line class="cls-4" x1="1" y1="1.72" x2="163" y2="1.61"/>
+            <line class="cls-4" x1="81.52" y1="163.07" x2="81.4" y2="1.07"/>
+            <!-- S -->
+            <path class="cls-3" d="M252,160.76a59.68,59.68,0,0,1,18.59,6.52M252,160.76c-27.19-4.8-52.41,9.31-56.32,31.5s15,44.07,42.15,48.87m-34,73.15a59.41,59.41,0,0,0,19.79,7.22c27.2,4.79,52.41-9.31,56.33-31.51s-15-44.07-42.16-48.86" transform="translate(-155.86 -158.46)"/>
+            <!-- C -->
+            <path class="cls-1" d="M237.78,322.13a81.82,81.82,0,0,1-76.22-53.54c-11.83-32.79-.73-70.42,26.82-91.66a81.47,81.47,0,0,1,54-16.67m3.64-.21,61.87-.59m-70.12.67,8.25-.08m-8.25,162.08,69.57-.05" transform="translate(-155.86 -158.46)"/>
+            <!-- O -->
+            <circle class="cls-2" cx="82" cy="82.66" r="81"/>
+            <!-- M -->
+            <polyline class="cls-6" points="11.68, 165 11.13, 1.36 
+                                            11.13, 1.36 82, 82.66 
+                                            82, 82.66 152.12, 1 
+                                            152.12, 1 152.12, 165" />
+        </svg>
+</svg>
