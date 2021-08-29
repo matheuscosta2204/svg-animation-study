@@ -6,12 +6,51 @@
 }
 
 .logo-image {
-    width: 500px;
+    width: 800px;
 }
 
+.minor-bracket {
+    animation: left-slide 1s linear forwards;
+    transform-box: fill-box;
+}
+
+.major-bracket {
+    animation: right-slide 1s linear forwards;
+    transform-box: fill-box;
+}
+
+@keyframes left-slide {
+    10% {
+        transform: scale(1.2, 1.2);
+    }
+    20% {
+        transform: scale(1, 1);
+    }
+    90% {
+        transform: translateX(-11em);
+    }
+    100% {
+        transform: translateX(-10em);
+    }
+}
+
+@keyframes right-slide {
+    10% {
+        transform: scale(1.2, 1.2);
+    }
+    20% {
+        transform: scale(1, 1);
+    }
+    90% {
+        transform: translateX(11em);
+    }
+    100% {
+        transform: translateX(10em);
+    }
+}
 .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
     fill:none;stroke-miterlimit:10;
-    opacity:1;
+    opacity:0;
 }
 .cls-1 {
     stroke-dasharray: 1000;
@@ -49,10 +88,10 @@
 }
 
 .cls-6 {
-    stroke:#f7931e;stroke-width:3px;
+    stroke:#f7931e;stroke-width:10px;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: draw-2 5s linear forwards;
+    animation: draw-2 3s linear forwards;
     animation-delay: 3s;
 }
 
@@ -60,7 +99,7 @@
     0% {
         stroke-dashoffset: 1000;
         stroke:#f7931e;
-        stroke-width:5px;
+        stroke-width:10px;
     }
     60% {
         stroke: #666;
@@ -68,12 +107,45 @@
     100% {
         stroke-dashoffset: 0;
         stroke: #666;
-        stroke-width: 2px;
+        stroke-width: 10px;
     }
 }
 
 @keyframes draw-2 {
     to {
-      stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
     }
+}
+
+.logo-text {
+	animation: stroke 2s linear forwards;
+	stroke-width: 1;
+	stroke: #f7931e;
+	font-size: 120px;
+}
+
+@keyframes stroke {
+	0%   {
+		fill: #666666; 
+        stroke: #f7931e;
+		stroke-dashoffset: 25%; 
+        stroke-dasharray: 0 50%; 
+        stroke-width: 4;
+	}
+	70%  {
+        fill: #666666; 
+        stroke: #f7931e; 
+    }
+	80%  {
+        fill: #666666; 
+        stroke: #f7931e; 
+        stroke-width: 3; 
+    }
+	100% {
+		fill: #f7931e; 
+        stroke: #666666; 
+		stroke-dashoffset: -25%; 
+        stroke-dasharray: 50% 0; 
+        stroke-width: 0;
+	}
 }

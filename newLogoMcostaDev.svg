@@ -1,1 +1,92 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.05 164.97"><defs><style>.cls-1{fill:none;stroke:#666;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>newLogoMcostaDev</title></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-539.412 -38.902 2069.13 848.315" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clippath1" transform="">
+      <path d="M 0 500 L 500 500 L 500 0 L 0 0 Z" style="fill: none; clip-rule: nonzero;"/>
+    </clipPath>
+  </defs>
+  <g>
+    <title>brackets</title>
+    <path style="fill:#25B6D2;" d="M 28.94 279.579 L 97.162 247.886 L 97.162 262.951 L 45.568 285.548 L 45.568 285.833 L 97.162 308.429 L 97.162 323.495 L 28.94 291.808 L 28.94 279.579 Z"/>
+    <path style="fill:#415E72;" d="M 107.69 329.186 L 138.105 226.139 L 152.462 226.139 L 122.065 329.186 L 107.69 329.186 Z"/>
+    <path style="fill:#E04F5F;" d="M 228.94 292.226 L 160.718 323.498 L 160.718 308.433 L 213.449 285.836 L 213.449 285.551 L 160.718 262.951 L 160.718 247.886 L 228.94 279.158 L 228.94 292.226 Z"/>
+  </g>
+  <g transform="matrix(1, 0, 0, -1, -121.384918, 543.342896)">
+    <title>logo</title>
+    <g transform="translate(167.271 177.8721)">
+      <path d="M 0 0 L -0.118 162" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+    </g>
+    <g transform="translate(167.1533 339.7534)">
+      <path d="M 0 0 L 70.387 -161.711" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+    </g>
+    <g transform="translate(167.2124 258.439)">
+      <path d="M 0 0 L 35.594 -0.596" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+    </g>
+    <g transform="translate(156.7822 339.811)">
+      <path d="M 0 0 L 162 0.118" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+    </g>
+    <g transform="translate(237.2993 178.4678)">
+      <path d="M 0 0 L -0.118 162" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(251.9531 339.2437)">
+        <path d="M 0 0 C 6.79 -1.197 13.062 -3.459 18.589 -6.526" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(237.7822 258.874)">
+        <path d="M 0 0 C -27.195 4.795 -46.068 26.674 -42.155 48.867 C -38.242 71.061 -13.023 85.165 14.171 80.37" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(237.7822 258.874)">
+        <path d="M 0 0 C 27.194 -4.795 46.068 -26.674 42.154 -48.867 C 38.241 -71.061 13.023 -85.164 -14.171 -80.369 C -21.46 -79.084 -28.152 -76.571 -33.966 -73.154" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(318.7822 258.874)">
+        <path d="M 0 0 C 0 -44.734 -36.265 -81 -81 -81 C -125.735 -81 -162 -44.734 -162 0 C -162 44.735 -125.735 81 -81 81 C -36.265 81 0 44.735 0 0 Z" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(237.7822 177.874)">
+        <path d="M 0 0 C -33.762 0.003 -64.773 21.784 -76.227 53.541 C -88.049 86.321 -76.948 123.958 -49.399 145.197 C -34.098 156.994 -14.672 162.952 4.609 161.871" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(246.0322 339.9521)">
+        <path d="M 0 0 L 61.871 0.583" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(237.7822 339.874)">
+        <path d="M 0 0 L 8.25 0.078" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(237.7822 177.874)">
+        <path d="M 0 0 L 69.571 0.051" style="fill: none; stroke: rgb(102, 102, 102); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 2px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(167.4614 177.5693)">
+        <path d="M 0 0 L -0.549 162.61" style="fill: none; stroke: rgb(247, 147, 30); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 3px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(166.9121 340.1797)">
+        <path d="M 0 0 L 70.87 -81.306" style="fill: none; stroke: rgb(247, 147, 30); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 3px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(307.3535 177.9248)">
+        <path d="M 0 0 L 0.55 162.61" style="fill: none; stroke: rgb(247, 147, 30); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 3px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+    <g style="clip-path: url(#clippath1);">
+      <g transform="translate(307.9033 340.5352)">
+        <path d="M 0 0 L -70.87 -81.305" style="fill: none; stroke: rgb(247, 147, 30); stroke-opacity: 1; stroke-miterlimit: 0; stroke-width: 3px; stroke-dashoffset: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>
