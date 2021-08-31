@@ -10,13 +10,17 @@
 }
 
 .minor-bracket {
-    animation: left-slide 1s linear forwards;
+    animation: left-slide 1s ease-in-out forwards;
     transform-box: fill-box;
+    transition: opacity 1s 2.5s;
+    opacity: 0;
 }
 
 .major-bracket {
-    animation: right-slide 1s linear forwards;
+    animation: right-slide 1s ease-in-out forwards;
     transform-box: fill-box;
+    transition: opacity 1s 2.5s;
+    opacity: 0;
 }
 
 @keyframes left-slide {
@@ -27,10 +31,10 @@
         transform: scale(1, 1);
     }
     90% {
-        transform: translateX(-11em);
+        transform: translateX(-19em);
     }
     100% {
-        transform: translateX(-10em);
+        transform: translateX(-18em);
     }
 }
 
@@ -42,12 +46,13 @@
         transform: scale(1, 1);
     }
     90% {
-        transform: translateX(11em);
+        transform: translateX(19em);
     }
     100% {
-        transform: translateX(10em);
+        transform: translateX(18em);
     }
 }
+
 .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
     fill:none;stroke-miterlimit:10;
     opacity:0;
@@ -56,27 +61,28 @@
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw 2s linear forwards;
+    animation-delay: 3s;
 }
 .cls-2 {
     /* stroke:#f7931e;stroke-width:3px; */
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw 3s linear forwards;
-    animation-delay: .3s;
+    animation-delay: 3.3s;
 }
 .cls-3 {
     /* stroke:#f7931e;stroke-width:3px; */
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw 3s linear forwards;
-    animation-delay: 1.5s;
+    animation-delay: 4.5s;
 }
 .cls-4 {
     /* stroke:#f7931e;stroke-width:3px; */
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw 3s linear forwards;
-    animation-delay: 2.5s;
+    animation-delay: 5.5s;
 }
 
 .cls-5 {
@@ -84,7 +90,7 @@
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw 3s linear forwards;
-    animation-delay: 3s;
+    animation-delay: 6s;
 }
 
 .cls-6 {
@@ -92,7 +98,7 @@
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: draw-2 3s linear forwards;
-    animation-delay: 3s;
+    animation-delay: 6s;
 }
 
 @keyframes draw {
@@ -100,45 +106,54 @@
         stroke-dashoffset: 1000;
         stroke:#f7931e;
         stroke-width:10px;
+        opacity:1;
     }
     60% {
         stroke: #666;
+        opacity:1;
     }
     100% {
         stroke-dashoffset: 0;
         stroke: #666;
         stroke-width: 10px;
+        opacity:1;
     }
 }
 
 @keyframes draw-2 {
-    to {
+    0% {
+        opacity: 1;
+    }
+    100% {
         stroke-dashoffset: 0;
+        opacity:1;
     }
 }
 
 .logo-text {
-	animation: stroke 2s linear forwards;
+	animation: stroke 2s ease-out forwards;
 	stroke-width: 1;
 	stroke: #f7931e;
 	font-size: 120px;
+    transition: opacity 1s 2.5s;
+    opacity: 0;
 }
 
 @keyframes stroke {
 	0%   {
-		fill: #666666; 
-        stroke: #f7931e;
+		fill: #FFF; 
+        stroke: #666;
 		stroke-dashoffset: 25%; 
         stroke-dasharray: 0 50%; 
         stroke-width: 4;
 	}
 	70%  {
-        fill: #666666; 
-        stroke: #f7931e; 
+        fill: #FFF; 
+        stroke: #666; 
     }
 	80%  {
-        fill: #666666; 
-        stroke: #f7931e; 
+        fill: #FFF; 
+        stroke: #666; 
         stroke-width: 3; 
     }
 	100% {
@@ -148,4 +163,10 @@
         stroke-dasharray: 50% 0; 
         stroke-width: 0;
 	}
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 0;
+    }
 }
